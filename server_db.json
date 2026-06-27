@@ -13,8 +13,6 @@
       pembimbing: "",
       tempat_pkl: "",
       pembimbing_industri: "",
-      tanggal_mulai: "",
-      tanggal_selesai: ""
     },
     {
       id: 2,
@@ -29,8 +27,6 @@
       pembimbing: "N/A",
       tempat_pkl: "N/A",
       pembimbing_industri: "N/A",
-      tanggal_mulai: "N/A",
-      tanggal_selesai: "N/A"
     }
   ],
   "jurnals": [],
