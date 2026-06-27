@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* 
+ * index.css - Modern / SaaS Dashboard Design Theme for SMK 1
+ * 
+ * Clean, soft, and professional theme matching the provided layout:
+ * - Rich deep blue sidebar background
+ * - Modern rounded card containers (rounded-2xl and rounded-3xl)
+ * - Light slate/blue grayish workspace background
+ * - High-contrast text with excellent readability
+ */
+
+:root {
+  --si-bg-main: #f4f7fe; /* Light slate/blue for main dashboard background */
+}
+
+body {
+  background-color: var(--si-bg-main);
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #0f172a;
+  margin: 0;
+  padding: 0;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f5f9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94a3b8;
+}
+
+/* Base fade-in animation for tab transitions */
+.animate-fade-in {
+  animation: fadeIn 0.25s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(4px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

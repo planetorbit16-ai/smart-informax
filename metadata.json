@@ -1,0 +1,6 @@
+{
+  "name": "SMART INFORMAX",
+  "description": "Platform Panduan dan Jurnal PKL Siswa TKJ",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
