@@ -1,18 +1,17 @@
 {
   "users": [
     {
-      id: 1,
-      nama: "Fahril",
-      nis: "111111",
-      sekolah: "SMK Negeri 1 Tanjungpinang",
-      jurusan: "Teknik Komputer dan Jaringan (TKJ)",
-      kelas: "XI TKJ 1",
-      email: "user@gmail.com",
-      password: "password123",
-      role: "user",
-      pembimbing: "",
-      tempat_pkl: "",
-      pembimbing_industri: "",
+      "id": 1,
+      "nama": "Siswa PKL TKJ",
+      "nis": "22045678",
+      "sekolah": "SMK Negeri 1 Tanjungpinang",
+      "jurusan": "Teknik Komputer dan Jaringan (TKJ)",
+      "kelas": "XII TKJ 1",
+      "email": "planetorbit16@gmail.com",
+      "password": "password123",
+      "role": "user",
+      "pembimbing": "",
+      "tempat_pkl": ""
     },
     {
       id: 2,
@@ -26,7 +25,6 @@
       role: "admin",
       pembimbing: "N/A",
       tempat_pkl: "N/A",
-      pembimbing_industri: "N/A",
     }
   ],
   "jurnals": [],
